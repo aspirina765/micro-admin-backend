@@ -6,7 +6,7 @@ import { ConfigModule } from '@nestjs/config'
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://admin_sr:kdWcpu1jWvUSlU6Y@clustermogodb-79l5n.mongodb.net/sradmbackend?retryWrites=true&w=majority',
+    MongooseModule.forRoot('mongodb+srv://aspirina765:forex512969@lucascluster.ccxmw.mongodb.net/sradmbackend?retryWrites=true&w=majority',
     { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true, useFindAndModify: false }),
     CategoriasModule,
     JogadoresModule,
